@@ -1,0 +1,78 @@
+
+/*base*/
+
+body { background-color: #e9eaed;}
+
+a { font-size: 12px; color: #6d84b4;}
+
+a:hover { color: #6d84b4;}
+
+textarea { resize: none; width: 100%;}
+
+/*layout*/
+
+#main { min-width: 500px; max-width:30%; margin: auto; padding: 5px 5px 5px 5px;}
+
+#logout { position: fixed; top: 0; right: 0;}
+
+/*module*/
+
+.msg {border: 1px solid #c4cde0; word-wrap: break-word;}
+
+.add { height: 48px; padding: 5px 5px 0 5px; border: 1px solid #bdc7d8;}
+
+.comment { position: relative; margin: 10px;}
+
+.cmt_item { margin-bottom: 10px;}
+
+.cmt_item > img { width: 40px; height: 40px; border: 1px solid rgba(0, 0, 0, .1);}
+
+.user-title { color: #3b5998; font-weight: bold; }
+
+.cmt_item > .user-title { font-size: 18px; vertical-align: top; margin-left: 5px;}
+
+.tool { position: absolute; right: 0; top: 0; cursor: pointer;}
+
+.msg_container { background-color: #f6f7f8;}
+
+.msg_item { position: relative; padding: 8px 0 0 40px; margin: 0px 10px;}
+
+.msg_item > img { width: 32px; height: 32px; position: absolute; left: 0; border: 1px solid rgba(0, 0, 0, .1);}
+
+.rsp_index:nth-child(1) { border-top: 1px solid #e9eaed;}
+
+.msg_item:nth-last-child(1) { padding: 0 0 8px 40px;}
+
+.msg_item:nth-last-child(2) { padding: 8px 0 8px 40px;}
+
+.response, .edit_rsp { padding: 3px 0 0 3px; height: 32px; line-height: 12px; border: 1px solid #bdc7d8;}
+
+.editbar { padding: 0; background-color: #f6f7f8;}
+
+.edit_btn { margin: 3px;}
+
+.cancel_btn { margin: 3px;}
+
+.tool-icon:link { font-size: 11px; color: #D3D5DA; text-decoration: none;}
+
+.tool-icon:visited { color: #D3D5DA; text-decoration: none;}
+
+.tool-icon:hover { color: #8A8A8A; text-decoration: none;}
+
+.tool-icon:active { color: #D3D5DA; text-decoration: none;}
+
+.dropdown-menu>li>a:hover { background-color: #3b5998; color:#fff;}
+
+.rsp_drop { min-width: 50px;}
+
+.msg_bar { padding: 8px 10px 8px 10px; border-top: 1px solid #e9eaed;}
+
+.likeSentence { margin: 0 10px; padding: 8px 0; font-size: 12px; color: #4e5665; border-top: 1px solid #e9eaed;}
+
+.likelist-item { font-size: 16px; font-weight: bold; position: relative; padding: 8px 0 8px 0; margin: 0px 10px;}
+
+.likelist-item > img { width: 40px; height: 40px; border: 1px solid rgba(0, 0, 0, .1);}
+
+.likeList-title { margin-left: 10px; }
+
+.glyphicon-thumbs-up { margin-right: 5px; color: #3b5998; }
