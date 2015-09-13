@@ -20,15 +20,6 @@ class MessageBoard extends CI_Controller {
 			redirect("messageboard/login", "refresh");
 		}
 
-		$post_date = "1411723475";
-		$datestring = "m月d日h時";
-		$now = time();
-		$timezone = "UP8";
-		$daylight_saving = TRUE;
-		print_r(date($datestring, $now));
-		print_r("/");
-		print_r(timespan($post_date, $now));
-
 		$data["title"] = "塗鴉牆";
 		$data["include"] = "index";
 		$data["msg_items"] = $this->msg_model->get_msg(0);
